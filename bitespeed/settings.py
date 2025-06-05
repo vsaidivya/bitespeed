@@ -107,6 +107,14 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 
 
+
+CSRF_TRUSTED_ORIGINS = [
+    'https://bitespeed-1-igpx.onrender.com/',
+    'http://bitespeed-1-igpx.onrender.com/',
+]
+
+
+
 # Internationalization
 # https://docs.djangoproject.com/en/5.2/topics/i18n/
 
